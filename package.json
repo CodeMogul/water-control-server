@@ -1,0 +1,29 @@
+{
+  "name": "water-control-system",
+  "version": "0.0.9",
+  "description": "Control water supply of multiple users.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "keywords": [
+    "water",
+    "control",
+    "nodes",
+    "hub",
+    "sensors"
+  ],
+  "dependencies":{
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors":"*",
+    "jsonwebtoken":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-jwt":"*"
+  },
+  "author": "Siddhesh Nachane",
+  "license": "MIT"
+}
