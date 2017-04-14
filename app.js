@@ -37,6 +37,10 @@ app.get('/', (req, res) => {
   res.send("Hello Siddhesh");
 });
 
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/index.html'));
+});
+
 app.use('/user', userRoutes);
 
 app.listen(port, () => {
